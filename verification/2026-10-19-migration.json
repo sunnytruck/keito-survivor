@@ -1,0 +1,27 @@
+{
+  "verifiedAt": "2026-10-19T02:41:09.238Z",
+  "sourceVersion": "1.2.0",
+  "sourceCommit": "18402a9b9171365303dd980f7129747423d96f9b",
+  "commands": [
+    {
+      "command": "npm run verify",
+      "passed": true
+    },
+    {
+      "command": "npm run verify:migration",
+      "passed": true
+    }
+  ],
+  "gameplayChecks": 23,
+  "sourceApplicationChecks": 12,
+  "productionApplicationChecks": 12,
+  "productionAssetChecks": 6,
+  "preservedSourceFiles": 6,
+  "preservedUIElements": 73,
+  "portraitBytes": 546221,
+  "base": "/keito-survivor/",
+  "gameplayBalanceChanged": false,
+  "browserLayoutChecked": false,
+  "browserAudioChecked": false,
+  "note": "Application tests use the actual source / Vite production bundle with a DOM fixture and native Canvas. They do not claim real browser interaction or performance."
+}

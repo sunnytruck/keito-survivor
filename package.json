@@ -1,0 +1,24 @@
+{
+  "name": "keito-survivor",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "description": "岩尊降臨 — ねむれる神の八分間。岩尊けいとの8分間サバイバルアクション。",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node tests/engine.mjs && node tests/app.mjs",
+    "test:dist": "node tests/dist.mjs && node tests/app.mjs --built",
+    "test:balance": "node tests/balance.mjs",
+    "verify:migration": "node scripts/verify-migration.mjs",
+    "verify": "npm test && npm run build && npm run test:dist"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "1.0.11",
+    "vite": "8.3.4"
+  }
+}

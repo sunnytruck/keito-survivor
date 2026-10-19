@@ -1,0 +1,196 @@
+{
+  "verifiedAt": "2026-10-18T08:23:46.010Z",
+  "checks": [
+    {
+      "name": "Cardinal / diagonal movement have identical speed; feet are a radius-10 circle",
+      "passed": true,
+      "ms": 2.7
+    },
+    {
+      "name": "Auto-attack kills enemies, drops faith, picks up faith and opens a paused three-card upgrade",
+      "passed": true,
+      "ms": 6.7
+    },
+    {
+      "name": "First upgrade occurs at approximately 15–25 seconds in five seeded introductory encounters",
+      "passed": true,
+      "ms": 76.3
+    },
+    {
+      "name": "Shared damage applies exactly once to peers and does not recurse",
+      "passed": true,
+      "ms": 0.2
+    },
+    {
+      "name": "All six attacks execute; moving aura expands; sleep heals then instantly stops when moving",
+      "passed": true,
+      "ms": 18.8
+    },
+    {
+      "name": "Passive slow, magnet, cooldown and fever have measurable effects",
+      "passed": true,
+      "ms": 1
+    },
+    {
+      "name": "Maxed abilities are excluded and all 6 attack / 4 passive slots obey their caps",
+      "passed": true,
+      "ms": 0.7
+    },
+    {
+      "name": "All three evolutions flow through a defeated boss reward and replace the original slot",
+      "passed": true,
+      "ms": 0.5
+    },
+    {
+      "name": "Evolved rocks bounce, giants fall, evolved share pulses and sleep uses its large barrier",
+      "passed": true,
+      "ms": 2.1
+    },
+    {
+      "name": "Bosses spawn once at 3, 6 and 8 minutes, far from player, with a warning",
+      "passed": true,
+      "ms": 3.1
+    },
+    {
+      "name": "Pause freezes simulation, enemy bullets and danger warnings",
+      "passed": true,
+      "ms": 0.2
+    },
+    {
+      "name": "Defeating final boss wins; HP zero loses; retry removes every old entity and timer",
+      "passed": true,
+      "ms": 0.4
+    },
+    {
+      "name": "Starting voice instantly kills opening clocks, with a wider three-shot fan",
+      "passed": true,
+      "ms": 0.5
+    },
+    {
+      "name": "Early random choices always include an owned attack upgrade and a new direct attack",
+      "passed": true,
+      "ms": 1.6
+    },
+    {
+      "name": "Rock impacts splash into neighboring enemies and create an impact effect",
+      "passed": true,
+      "ms": 0.3
+    },
+    {
+      "name": "Sixty kills release a burst, clear bullets, collect faith and never recursively recharge themselves",
+      "passed": true,
+      "ms": 0.7
+    },
+    {
+      "name": "Recovery pickups heal 24 and level ups heal 12",
+      "passed": true,
+      "ms": 0.1
+    },
+    {
+      "name": "Long stationary sleep gets an avoidable warning rather than instant damage",
+      "passed": true,
+      "ms": 0.4
+    },
+    {
+      "name": "Every minute raises enemy health and density without changing already spawned enemies",
+      "passed": true,
+      "ms": 0.1
+    },
+    {
+      "name": "Elites are larger and resist knockback while taking the full attack damage",
+      "passed": true,
+      "ms": 0.1
+    },
+    {
+      "name": "Threat transitions announce once, pause freezes them, and retry resets the tier",
+      "passed": true,
+      "ms": 0.2
+    },
+    {
+      "name": "Mass kills cannot multiply healing drops without waiting for the recovery interval",
+      "passed": true,
+      "ms": 0.4
+    },
+    {
+      "fullSimulation": {
+        "state": "playing",
+        "time": 481.0000000000751,
+        "level": 42,
+        "kills": 10679,
+        "hp": 150,
+        "xp": 196.1300000000137,
+        "position": {
+          "x": 1589.675188358087,
+          "y": 736.5973203069811
+        },
+        "abilities": {
+          "voice": {
+            "level": 5,
+            "evolved": false
+          },
+          "rock": {
+            "level": 5,
+            "evolved": true
+          },
+          "share": {
+            "level": 5,
+            "evolved": true
+          },
+          "halo": {
+            "level": 5,
+            "evolved": false
+          },
+          "sleep": {
+            "level": 5,
+            "evolved": true
+          },
+          "face": {
+            "level": 5,
+            "evolved": false
+          },
+          "chill": {
+            "level": 5,
+            "evolved": false
+          },
+          "magnet": {
+            "level": 5,
+            "evolved": false
+          },
+          "early": {
+            "level": 5,
+            "evolved": false
+          },
+          "fever": {
+            "level": 5,
+            "evolved": false
+          }
+        },
+        "enemies": 506,
+        "bullets": 3,
+        "gems": 318,
+        "bosses": [
+          "boss1",
+          "boss2",
+          "final"
+        ],
+        "rewards": 2,
+        "combo": 10679,
+        "bestCombo": 10679,
+        "fervor": 39,
+        "rampages": 64,
+        "pickups": 10
+      },
+      "maxima": {
+        "enemies": 520,
+        "bullets": 21,
+        "gems": 350,
+        "effects": 138
+      }
+    },
+    {
+      "name": "Full-length eight-minute simulation reaches every boss without entity leaks",
+      "passed": true,
+      "ms": 3316.4
+    }
+  ]
+}

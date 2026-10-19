@@ -1,0 +1,12 @@
+{
+  "sourceCommit": "18402a9b9171365303dd980f7129747423d96f9b",
+  "sourceVersion": "1.2.0",
+  "files": {
+    "src/engine.mjs": "222380290c5d564f99b612c7c8a1cf8afa094d9da64cddeb988bddb8a0cb3364",
+    "src/app.mjs": "a468f20de89789be71c60924b48f394ab1916a50fa2314e997756221bfd97c7e",
+    "src/art.mjs": "37754a362c90037001f378f07f475c796d725f7c86ca5dde3386442b4ffbb267",
+    "src/style.css": "1d10fe96cee4c8a765ba3809864096fb5185c5c01fbbfc0842639eb99d04e99d",
+    "src/assets/iwason-original.jpeg": "4c892cba29b7f31e70890944fcd11b5f73ce7b9f14a2cdd9d89a223e0f4a3423",
+    "index.html": "d66ba7c4eec2937f67b109da330417b4a23c12ce5dd1f2bbc69cc6a68ba39b26"
+  }
+}

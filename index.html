@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#20251f"><meta name="description" content="寝たいだけの神、岩尊けいと。けいとの部屋を舞台にした8分間のサバイバルアクション。">
+  <title>岩尊降臨 — ねむれる神の八分間</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%2320251f'/%3E%3Cpath d='M32 7L54 20L49 47L28 57L9 39L13 17Z' fill='%23e8c477'/%3E%3Cpath d='M20 29h10m7 0h10' stroke='%2320251f' stroke-width='4'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <svg class="sprite" xmlns="http://www.w3.org/2000/svg"><defs>
+    <symbol id="i-rock" viewBox="0 0 32 32"><path d="m15 3 11 6 3 13-12 7L4 23 2 12Z"/><path d="m15 3 2 11 12 8M2 12l15 2v15"/></symbol>
+    <symbol id="i-voice" viewBox="0 0 32 32"><path d="m5 14 7-1 6-6v18l-6-6H5Z"/><path d="M22 10q8 6 0 12m4-17q12 11 0 22"/></symbol>
+    <symbol id="i-share" viewBox="0 0 32 32"><rect x="3" y="5" width="26" height="18" rx="3"/><path d="M11 28h10m-5-5v5m-5-12 5-5 5 5m-5-5v10"/></symbol>
+    <symbol id="i-halo" viewBox="0 0 32 32"><circle cx="16" cy="16" r="8"/><path d="M16 1v5m0 20v5M1 16h5m20 0h5M5 5l4 4m14 14 4 4M27 5l-4 4M9 23l-4 4"/></symbol>
+    <symbol id="i-sleep" viewBox="0 0 32 32"><path d="M27 20A12 12 0 0 1 12 4a12 12 0 1 0 15 16Z"/><path d="M20 4h7l-7 7h7M5 23l5 2"/></symbol>
+    <symbol id="i-face" viewBox="0 0 32 32"><path d="M7 10q0-7 9-7t9 7v10q0 9-9 9t-9-9Z"/><path d="M9 13h5m4 0h5m-11 0v3m8-3v3m-7 6h6"/></symbol>
+    <symbol id="i-chill" viewBox="0 0 32 32"><path d="M3 12h11m4 0h11M4 14q1 12 9 1m6 0q7 11 9-1M16 22v7m-4-3h8"/></symbol>
+    <symbol id="i-magnet" viewBox="0 0 32 32"><path d="M5 5h7v12a4 4 0 0 0 8 0V5h7v12a11 11 0 0 1-22 0Z"/><path d="M5 12h7m8 0h7"/></symbol>
+    <symbol id="i-early" viewBox="0 0 32 32"><circle cx="16" cy="17" r="11"/><path d="M16 10v8l5 3M4 5l5-3m14 0 5 3M8 27l-3 3m19-3 3 3"/></symbol>
+    <symbol id="i-fever" viewBox="0 0 32 32"><rect x="3" y="6" width="26" height="21" rx="4"/><path d="M11 7v19m10-19v19m-15-9h2m6 0h3m7 0h2M8 2h16"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 32 32"><path d="M11 7v18M22 7v18"/></symbol>
+    <symbol id="i-settings" viewBox="0 0 32 32"><circle cx="16" cy="16" r="5"/><path d="m13 3 6 0 1 4 4 2 4-1 3 6-3 3v4l1 3-5 4-4-2-4 1-2 4-6-2v-4l-3-3H1l-1-7 4-2 2-4V5l6-2 1 4"/></symbol>
+    <symbol id="i-volume" viewBox="0 0 32 32"><path d="m4 12 7 0 8-6v20l-8-6H4Z"/><path d="M23 10q9 6 0 12"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 32 32"><path d="M4 16h23M18 7l9 9-9 9"/></symbol>
+  </defs></svg>
+  <div class="app" id="app">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="タイトルへ" id="brandHome"><svg><use href="#i-rock"/></svg><span>岩尊降臨<small>IWASON SURVIVORS</small></span></a>
+      <div class="chapter"><span class="status-dot"></span><span id="chapterLabel">第一幕：けいとの部屋</span><span class="chapter-sub" id="chapterSub">神は、まだ眠い。</span></div>
+      <div class="top-actions"><span class="version">VERSION 1.2</span><button class="icon-button" id="muteButton" aria-label="ミュート切替" title="音の切り替え [M]"><svg><use href="#i-volume"/></svg></button><button class="icon-button" id="settingsButton" aria-label="設定" title="設定"><svg><use href="#i-settings"/></svg></button><button class="icon-button pause-button" id="pauseButton" aria-label="ポーズ" title="一時停止 [Esc / P]"><svg><use href="#i-pause"/></svg><span>一時停止</span></button></div>
+    </header>
+    <main class="game-layout">
+      <section class="arena" id="arena" aria-label="ゲームエリア">
+        <canvas id="game" aria-label="WASDまたは矢印キーで移動する見下ろしアクションゲーム"></canvas>
+        <div class="arena-grain" aria-hidden="true"></div>
+        <div class="stage-label"><span>STAGE 01</span><b>けいとの部屋</b><small id="roomStatus">いつもの、だらだらした午後。</small></div>
+        <div class="hud hidden" id="hud">
+          <div class="health-block"><div class="health-label"><b>岩尊けいと</b><span id="hpText">100 / 100</span></div><div class="bar hp-bar"><i id="hpBar"></i></div></div>
+          <div class="time-block"><span>ご就寝まで</span><b id="timeText">00:00</b><small>/ 08:00</small></div>
+          <div class="kills-block"><span>撃破</span><b id="killsText">0</b></div>
+        </div>
+        <div class="boss-hud hidden" id="bossHud"><div><span id="bossName">夜更かしの化身</span><b id="bossHpText"></b></div><div class="bar"><i id="bossHpBar"></i></div></div>
+        <div class="combo-hud hidden" id="comboHud"><span>連続撃破</span><strong id="comboText">0</strong><small>COMBO</small></div>
+        <div class="fervor-hud hidden" id="fervorHud"><div><b id="fervorLabel">熱狂 → 神威解放</b><span id="fervorText">0 / 60</span></div><div class="bar"><i id="fervorBar"></i></div></div>
+        <div class="battle-cutin" id="battleCutin"><small id="cutinLabel"></small><strong id="cutinTitle"></strong><span id="cutinSub"></span></div>
+        <div class="dialogue hidden" id="dialogue"><span class="dialogue-who">けいとの神託</span><strong id="dialogueMain"></strong><small id="dialogueSub"></small></div>
+        <div class="arena-bottom"><span><i class="dot faith-dot"></i>信仰</span><span><i class="dot danger-dot"></i>敵弾・危険予告</span><span><i class="dot hit-dot"></i>足元だけが当たり判定</span></div>
+        <div class="xp-hud hidden" id="xpHud"><span id="levelText">LV. 01</span><div class="bar xp-bar"><i id="xpBar"></i></div><small id="xpText">0 / 16</small></div>
+        <div class="touch-pad" id="touchPad"><div id="touchKnob"></div></div>
+        <div class="title-screen" id="titleScreen">
+          <div class="title-copy"><div class="eyebrow"><i></i> A VERY SLEEPY SURVIVAL</div><p class="title-intro">信仰は集まる。本人は、寝たい。</p><h1>岩尊<span>降臨</span><em>ねむれる神の八分間</em></h1><p class="title-description">いつもの部屋が、勝手に神殿へ。<br>大群をかわし、神託を育て、<br>今夜も八時には布団に入りたい。</p><button class="start-button" id="startButton"><span><small>準備はいい？</small>神として、しぶしぶ降臨</span><svg><use href="#i-arrow"/></svg></button><div class="title-secondary"><button id="howButton">遊び方を見る <span>↗</span></button><span>1プレイ 約8分 ＋ 最終ボス</span></div><div class="key-guide"><div><kbd>W</kbd><span><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></span></div><p><b>移動するだけ。</b><br>攻撃は神が適当にやります。</p></div></div>
+          <div class="hero-tag"><span>本日の主神</span><b>岩尊けいと</b><small>「ドラクエやろ。」</small><div class="hero-caption">添付イラストを使用 / 本人写真に差し替え可</div></div>
+          <div class="title-bottom"><span>じっと教 公認（本人はたぶん知らない）</span><span>THE ROOM WILL BECOME A TEMPLE.</span></div>
+        </div>
+        <div class="toast hidden" id="toast" role="status"></div>
+      </section>
+      <aside class="sidebar">
+        <div class="side-heading"><span>YOUR DIVINITY</span><b>きょうの神さま</b><div class="seal">岩</div></div>
+        <div class="profile"><div class="profile-face" id="profileFace"></div><div><strong>岩尊けいと</strong><span id="profileTitle">無気力な現人神</span><small id="profileState">睡眠欲：とても高い</small></div></div>
+        <div class="loadout-heading"><h2>神の御業</h2><span id="attackCount">1 / 6</span></div>
+        <div class="attack-slots" id="attackSlots"></div>
+        <div class="loadout-heading support-heading"><h2>信仰の加護</h2><span id="passiveCount">0 / 4</span></div>
+        <div class="passive-slots" id="passiveSlots"></div>
+        <div class="side-tip" id="sideTip"><span id="pressureLabel">敵勢力 Lv.1：気配</span><p>60体撃破で「神威解放」！<br>大爆発＋敵弾消去＋信仰回収。<br>金のひし形が付いた敵は精鋭。</p></div>
+        <div class="next-event"><span>NEXT EVENT</span><div><b id="nextEventName">最初の試練</b><strong id="nextEventTime">03:00</strong></div><small id="nextEventDesc">大目覚まし・鳴門が降臨</small><div class="timeline"><i id="timelineBar"></i><b style="left:37.5%"></b><b style="left:75%"></b><b style="left:99%"></b></div></div>
+        <button class="codex-button" id="codexButton"><svg><use href="#i-share"/></svg>御業・進化の手引き <span>↗</span></button>
+      </aside>
+    </main>
+    <footer class="footer"><span><i></i> 神の都合により、攻撃は自動です。</span><span class="footer-controls">WASD / ↑↓←→ 移動 <b>ESC</b> ポーズ <b>M</b> ミュート</span><span>KEITO'S ROOM · EST. 20:00</span></footer>
+  </div>
+  <div class="modal-layer hidden" id="modalLayer"><div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"></div></div>
+  <input type="file" id="faceUpload" accept="image/*" hidden>
+  <noscript><p class="no-js">このゲームはJavaScriptを有効にすると遊べます。</p></noscript>
+  <script type="module" src="/src/app.mjs"></script>
+</body>
+</html>

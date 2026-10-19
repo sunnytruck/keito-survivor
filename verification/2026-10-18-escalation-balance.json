@@ -1,0 +1,1538 @@
+{
+  "verifiedAt": "2026-10-18T08:21:28.712Z",
+  "note": "Synthetic input, no invincibility, no health injection, no time skips. This is not a human playtest.",
+  "reports": [
+    {
+      "version": "before",
+      "seed": 7,
+      "avoid": false,
+      "maxed": false,
+      "lazy": false,
+      "first": 21.349999999999856,
+      "checkpoints": [
+        {
+          "t": 60,
+          "hp": 150,
+          "kills": 97,
+          "level": 4
+        },
+        {
+          "t": 120,
+          "hp": 150,
+          "kills": 331,
+          "level": 10
+        },
+        {
+          "t": 180,
+          "hp": 150,
+          "kills": 709,
+          "level": 15
+        },
+        {
+          "t": 240,
+          "hp": 150,
+          "kills": 1229,
+          "level": 20
+        },
+        {
+          "t": 300,
+          "hp": 150,
+          "kills": 2033,
+          "level": 25
+        },
+        {
+          "t": 360,
+          "hp": 150,
+          "kills": 3050,
+          "level": 33
+        },
+        {
+          "t": 420,
+          "hp": 150,
+          "kills": 4303,
+          "level": 40
+        },
+        {
+          "t": 480,
+          "hp": 170,
+          "kills": 6062,
+          "level": 46
+        }
+      ],
+      "result": {
+        "state": "won",
+        "time": 508.2499999998116,
+        "level": 49,
+        "kills": 6690,
+        "hp": 200,
+        "xp": 108,
+        "position": {
+          "x": 874.937297979161,
+          "y": 1209.0869859618454
+        },
+        "abilities": {
+          "voice": {
+            "level": 5,
+            "evolved": false
+          },
+          "magnet": {
+            "level": 5,
+            "evolved": false
+          },
+          "halo": {
+            "level": 5,
+            "evolved": false
+          },
+          "early": {
+            "level": 5,
+            "evolved": false
+          },
+          "face": {
+            "level": 5,
+            "evolved": false
+          },
+          "rock": {
+            "level": 5,
+            "evolved": true
+          },
+          "share": {
+            "level": 5,
+            "evolved": false
+          },
+          "fever": {
+            "level": 5,
+            "evolved": false
+          },
+          "sleep": {
+            "level": 5,
+            "evolved": false
+          }
+        },
+        "enemies": 53,
+        "bullets": 0,
+        "gems": 311,
+        "bosses": [
+          "boss1",
+          "boss2",
+          "final"
+        ],
+        "rewards": 0,
+        "combo": 6584,
+        "bestCombo": 6584,
+        "fervor": 3,
+        "rampages": 61,
+        "pickups": 10
+      }
+    },
+    {
+      "version": "after",
+      "seed": 7,
+      "avoid": false,
+      "maxed": false,
+      "lazy": false,
+      "first": 20.449999999999907,
+      "checkpoints": [
+        {
+          "t": 60,
+          "hp": 150,
+          "kills": 100,
+          "level": 5
+        },
+        {
+          "t": 120,
+          "hp": 150,
+          "kills": 414,
+          "level": 9
+        },
+        {
+          "t": 180,
+          "hp": 150,
+          "kills": 1101,
+          "level": 15
+        },
+        {
+          "t": 240,
+          "hp": 150,
+          "kills": 2182,
+          "level": 21
+        },
+        {
+          "t": 300,
+          "hp": 150,
+          "kills": 3700,
+          "level": 28
+        },
+        {
+          "t": 360,
+          "hp": 144,
+          "kills": 5685,
+          "level": 35
+        },
+        {
+          "t": 420,
+          "hp": 150,
+          "kills": 8209,
+          "level": 42
+        },
+        {
+          "t": 480,
+          "hp": 89,
+          "kills": 11439,
+          "level": 48
+        }
+      ],
+      "result": {
+        "state": "won",
+        "time": 504.49999999981503,
+        "level": 50,
+        "kills": 12549,
+        "hp": 129.19999999999976,
+        "xp": 175.54000000002617,
+        "position": {
+          "x": 1881.8069029734675,
+          "y": 1185.2548162021042
+        },
+        "abilities": {
+          "voice": {
+            "level": 5,
+            "evolved": false
+          },
+          "magnet": {
+            "level": 5,
+            "evolved": false
+          },
+          "early": {
+            "level": 5,
+            "evolved": false
+          },
+          "rock": {
+            "level": 5,
+            "evolved": true
+          },
+          "halo": {
+            "level": 5,
+            "evolved": false
+          },
+          "face": {
+            "level": 5,
+            "evolved": false
+          },
+          "share": {
+            "level": 5,
+            "evolved": false
+          },
+          "fever": {
+            "level": 5,
+            "evolved": false
+          },
+          "sleep": {
+            "level": 5,
+            "evolved": false
+          }
+        },
+        "enemies": 494,
+        "bullets": 0,
+        "gems": 294,
+        "bosses": [
+          "boss1",
+          "boss2",
+          "final"
+        ],
+        "rewards": 0,
+        "combo": 12509,
+        "bestCombo": 12509,
+        "fervor": 9,
+        "rampages": 60,
+        "pickups": 10
+      }
+    },
+    {
+      "version": "before",
+      "seed": 24,
+      "avoid": false,
+      "maxed": false,
+      "lazy": false,
+      "first": 20.299999999999915,
+      "checkpoints": [
+        {
+          "t": 60,
+          "hp": 150,
+          "kills": 101,
+          "level": 5
+        },
+        {
+          "t": 120,
+          "hp": 150,
+          "kills": 329,
+          "level": 10
+        },
+        {
+          "t": 180,
+          "hp": 150,
+          "kills": 689,
+          "level": 15
+        },
+        {
+          "t": 240,
+          "hp": 150,
+          "kills": 1260,
+          "level": 20
+        },
+        {
+          "t": 300,
+          "hp": 150,
+          "kills": 2050,
+          "level": 25
+        },
+        {
+          "t": 360,
+          "hp": 150,
+          "kills": 2971,
+          "level": 31
+        },
+        {
+          "t": 420,
+          "hp": 150,
+          "kills": 4299,
+          "level": 39
+        },
+        {
+          "t": 480,
+          "hp": 160,
+          "kills": 6066,
+          "level": 45
+        }
+      ],
+      "result": {
+        "state": "won",
+        "time": 498.8999999998201,
+        "level": 47,
+        "kills": 6480,
+        "hp": 180,
+        "xp": 62,
+        "position": {
+          "x": 1972.0975303860516,
+          "y": 785.5361812404809
+        },
+        "abilities": {
+          "voice": {
+            "level": 5,
+            "evolved": false
+          },
+          "halo": {
+            "level": 5,
+            "evolved": false
+          },
+          "magnet": {
+            "level": 5,
+            "evolved": false
+          },
+          "face": {
+            "level": 5,
+            "evolved": false
+          },
+          "rock": {
+            "level": 5,
+            "evolved": true
+          },
+          "early": {
+            "level": 5,
+            "evolved": false
+          },
+          "share": {
+            "level": 5,
+            "evolved": false
+          },
+          "fever": {
+            "level": 5,
+            "evolved": false
+          },
+          "sleep": {
+            "level": 5,
+            "evolved": false
+          }
+        },
+        "enemies": 34,
+        "bullets": 0,
+        "gems": 276,
+        "bosses": [
+          "boss1",
+          "boss2",
+          "final"
+        ],
+        "rewards": 0,
+        "combo": 6480,
+        "bestCombo": 6480,
+        "fervor": 3,
+        "rampages": 60,
+        "pickups": 10
+      }
+    },
+    {
+      "version": "after",
+      "seed": 24,
+      "avoid": false,
+      "maxed": false,
+      "lazy": false,
+      "first": 21.09999999999987,
+      "checkpoints": [
+        {
+          "t": 60,
+          "hp": 150,
+          "kills": 91,
+          "level": 5
+        },
+        {
+          "t": 120,
+          "hp": 150,
+          "kills": 446,
+          "level": 10
+        },
+        {
+          "t": 180,
+          "hp": 150,
+          "kills": 1094,
+          "level": 16
+        },
+        {
+          "t": 240,
+          "hp": 150,
+          "kills": 2155,
+          "level": 24
+        },
+        {
+          "t": 300,
+          "hp": 146,
+          "kills": 3726,
+          "level": 31
+        },
+        {
+          "t": 360,
+          "hp": 150,
+          "kills": 5756,
+          "level": 40
+        },
+        {
+          "t": 420,
+          "hp": 164,
+          "kills": 8532,
+          "level": 47
+        },
+        {
+          "t": 480,
+          "hp": 113,
+          "kills": 11454,
+          "level": 51
+        }
+      ],
+      "result": {
+        "state": "won",
+        "time": 491.7749999998266,
+        "level": 52,
+        "kills": 12005,
+        "hp": 168.19999999999996,
+        "xp": 255.21000000002917,
+        "position": {
+          "x": 957.466027470423,
+          "y": 878.5782108218737
+        },
+        "abilities": {
+          "voice": {
+            "level": 5,
+            "evolved": false
+          },
+          "magnet": {
+            "level": 5,
+            "evolved": false
+          },
+          "halo": {
+            "level": 5,
+            "evolved": false
+          },
+          "share": {
+            "level": 5,
+            "evolved": false
+          },
+          "rock": {
+            "level": 5,
+            "evolved": true
+          },
+          "early": {
+            "level": 5,
+            "evolved": false
+          },
+          "face": {
+            "level": 5,
+            "evolved": false
+          },
+          "fever": {
+            "level": 5,
+            "evolved": false
+          },
+          "sleep": {
+            "level": 5,
+            "evolved": false
+          }
+        },
+        "enemies": 511,
+        "bullets": 0,
+        "gems": 206,
+        "bosses": [
+          "boss1",
+          "boss2",
+          "final"
+        ],
+        "rewards": 0,
+        "combo": 11916,
+        "bestCombo": 11916,
+        "fervor": 15,
+        "rampages": 60,
+        "pickups": 10
+      }
+    },
+    {
+      "version": "before",
+      "seed": 101,
+      "avoid": false,
+      "maxed": false,
+      "lazy": false,
+      "first": 20.74999999999989,
+      "checkpoints": [
+        {
+          "t": 60,
+          "hp": 150,
+          "kills": 96,
+          "level": 5
+        },
+        {
+          "t": 120,
+          "hp": 150,
+          "kills": 308,
+          "level": 10
+        },
+        {
+          "t": 180,
+          "hp": 150,
+          "kills": 714,
+          "level": 15
+        },
+        {
+          "t": 240,
+          "hp": 150,
+          "kills": 1253,
+          "level": 18
+        },
+        {
+          "t": 300,
+          "hp": 150,
+          "kills": 2029,
+          "level": 23
+        },
+        {
+          "t": 360,
+          "hp": 150,
+          "kills": 3038,
+          "level": 27
+        },
+        {
+          "t": 420,
+          "hp": 150,
+          "kills": 4288,
+          "level": 34
+        },
+        {
+          "t": 480,
+          "hp": 170,
+          "kills": 6060,
+          "level": 45
+        }
+      ],
+      "result": {
+        "state": "won",
+        "time": 496.24999999982253,
+        "level": 47,
+        "kills": 6406,
+        "hp": 190,
+        "xp": 207,
+        "position": {
+          "x": 957.4063272344883,
+          "y": 959.1450714214051
+        },
+        "abilities": {
+          "voice": {
+            "level": 5,
+            "evolved": false
+          },
+          "magnet": {
+            "level": 5,
+            "evolved": false
+          },
+          "halo": {
+            "level": 5,
+            "evolved": false
+          },
+          "rock": {
+            "level": 5,
+            "evolved": false
+          },
+          "early": {
+            "level": 5,
+            "evolved": false
+          },
+          "share": {
+            "level": 5,
+            "evolved": false
+          },
+          "face": {
+            "level": 5,
+            "evolved": false
+          },
+          "fever": {
+            "level": 5,
+            "evolved": false
+          },
+          "sleep": {
+            "level": 5,
+            "evolved": false
+          }
+        },
+        "enemies": 72,
+        "bullets": 0,
+        "gems": 331,
+        "bosses": [
+          "boss1",
+          "boss2",
+          "final"
+        ],
+        "rewards": 0,
+        "combo": 6384,
+        "bestCombo": 6384,
+        "fervor": 60,
+        "rampages": 57,
+        "pickups": 10
+      }
+    },
+    {
+      "version": "after",
+      "seed": 101,
+      "avoid": false,
+      "maxed": false,
+      "lazy": false,
+      "first": 22.2999999999998,
+      "checkpoints": [
+        {
+          "t": 60,
+          "hp": 150,
+          "kills": 104,
+          "level": 5
+        },
+        {
+          "t": 120,
+          "hp": 150,
+          "kills": 452,
+          "level": 9
+        },
+        {
+          "t": 180,
+          "hp": 150,
+          "kills": 1087,
+          "level": 14
+        },
+        {
+          "t": 240,
+          "hp": 150,
+          "kills": 2138,
+          "level": 21
+        },
+        {
+          "t": 300,
+          "hp": 150,
+          "kills": 3747,
+          "level": 28
+        },
+        {
+          "t": 360,
+          "hp": 150,
+          "kills": 5750,
+          "level": 35
+        },
+        {
+          "t": 420,
+          "hp": 150,
+          "kills": 8136,
+          "level": 43
+        },
+        {
+          "t": 480,
+          "hp": 73,
+          "kills": 11062,
+          "level": 48
+        }
+      ],
+      "result": {
+        "state": "over",
+        "time": 488.04999999983,
+        "level": 48,
+        "kills": 11486,
+        "hp": 0,
+        "xp": 187.62000000002172,
+        "position": {
+          "x": 1522.3393541188057,
+          "y": 518.1758828888557
+        },
+        "abilities": {
+          "voice": {
+            "level": 5,
+            "evolved": false
+          },
+          "halo": {
+            "level": 5,
+            "evolved": false
+          },
+          "share": {
+            "level": 5,
+            "evolved": false
+          },
+          "magnet": {
+            "level": 5,
+            "evolved": false
+          },
+          "early": {
+            "level": 5,
+            "evolved": false
+          },
+          "rock": {
+            "level": 5,
+            "evolved": true
+          },
+          "face": {
+            "level": 5,
+            "evolved": false
+          },
+          "fever": {
+            "level": 5,
+            "evolved": false
+          },
+          "sleep": {
+            "level": 4,
+            "evolved": false
+          }
+        },
+        "enemies": 472,
+        "bullets": 17,
+        "gems": 301,
+        "bosses": [
+          "boss1",
+          "boss2",
+          "final"
+        ],
+        "rewards": 0,
+        "combo": 11417,
+        "bestCombo": 11417,
+        "fervor": 53,
+        "rampages": 58,
+        "pickups": 10
+      }
+    },
+    {
+      "version": "after-with-simple-avoidance",
+      "seed": 7,
+      "avoid": true,
+      "maxed": false,
+      "lazy": false,
+      "first": 20.449999999999907,
+      "checkpoints": [
+        {
+          "t": 60,
+          "hp": 150,
+          "kills": 95,
+          "level": 4
+        },
+        {
+          "t": 120,
+          "hp": 150,
+          "kills": 455,
+          "level": 10
+        },
+        {
+          "t": 180,
+          "hp": 150,
+          "kills": 1082,
+          "level": 14
+        },
+        {
+          "t": 240,
+          "hp": 150,
+          "kills": 2105,
+          "level": 20
+        },
+        {
+          "t": 300,
+          "hp": 150,
+          "kills": 3686,
+          "level": 26
+        },
+        {
+          "t": 360,
+          "hp": 150,
+          "kills": 5605,
+          "level": 34
+        },
+        {
+          "t": 420,
+          "hp": 140,
+          "kills": 7871,
+          "level": 41
+        },
+        {
+          "t": 480,
+          "hp": 153,
+          "kills": 10528,
+          "level": 46
+        }
+      ],
+      "result": {
+        "state": "won",
+        "time": 496.1999999998226,
+        "level": 47,
+        "kills": 11286,
+        "hp": 180,
+        "xp": 232.5000000000221,
+        "position": {
+          "x": 1299.7640959510093,
+          "y": 956.1497090767251
+        },
+        "abilities": {
+          "voice": {
+            "level": 5,
+            "evolved": false
+          },
+          "magnet": {
+            "level": 5,
+            "evolved": false
+          },
+          "rock": {
+            "level": 5,
+            "evolved": true
+          },
+          "early": {
+            "level": 5,
+            "evolved": false
+          },
+          "face": {
+            "level": 5,
+            "evolved": false
+          },
+          "halo": {
+            "level": 5,
+            "evolved": false
+          },
+          "share": {
+            "level": 5,
+            "evolved": false
+          },
+          "fever": {
+            "level": 5,
+            "evolved": false
+          },
+          "sleep": {
+            "level": 5,
+            "evolved": false
+          }
+        },
+        "enemies": 512,
+        "bullets": 0,
+        "gems": 295,
+        "bosses": [
+          "boss1",
+          "boss2",
+          "final"
+        ],
+        "rewards": 0,
+        "combo": 11210,
+        "bestCombo": 11210,
+        "fervor": 21,
+        "rampages": 55,
+        "pickups": 10
+      }
+    },
+    {
+      "version": "after-with-simple-avoidance",
+      "seed": 24,
+      "avoid": true,
+      "maxed": false,
+      "lazy": false,
+      "first": 21.09999999999987,
+      "checkpoints": [
+        {
+          "t": 60,
+          "hp": 150,
+          "kills": 91,
+          "level": 5
+        },
+        {
+          "t": 120,
+          "hp": 150,
+          "kills": 446,
+          "level": 10
+        },
+        {
+          "t": 180,
+          "hp": 150,
+          "kills": 1125,
+          "level": 16
+        },
+        {
+          "t": 240,
+          "hp": 150,
+          "kills": 2165,
+          "level": 24
+        },
+        {
+          "t": 300,
+          "hp": 150,
+          "kills": 3741,
+          "level": 31
+        },
+        {
+          "t": 360,
+          "hp": 150,
+          "kills": 5756,
+          "level": 39
+        },
+        {
+          "t": 420,
+          "hp": 170,
+          "kills": 8223,
+          "level": 46
+        },
+        {
+          "t": 480,
+          "hp": 186,
+          "kills": 11130,
+          "level": 51
+        }
+      ],
+      "result": {
+        "state": "won",
+        "time": 488.6999999998294,
+        "level": 52,
+        "kills": 11599,
+        "hp": 230,
+        "xp": 42.20000000002856,
+        "position": {
+          "x": 631.2094565710105,
+          "y": 784.5947899306883
+        },
+        "abilities": {
+          "voice": {
+            "level": 5,
+            "evolved": false
+          },
+          "magnet": {
+            "level": 5,
+            "evolved": false
+          },
+          "halo": {
+            "level": 5,
+            "evolved": false
+          },
+          "rock": {
+            "level": 5,
+            "evolved": true
+          },
+          "early": {
+            "level": 5,
+            "evolved": false
+          },
+          "face": {
+            "level": 5,
+            "evolved": false
+          },
+          "share": {
+            "level": 5,
+            "evolved": false
+          },
+          "fever": {
+            "level": 5,
+            "evolved": false
+          },
+          "sleep": {
+            "level": 5,
+            "evolved": false
+          }
+        },
+        "enemies": 449,
+        "bullets": 0,
+        "gems": 251,
+        "bosses": [
+          "boss1",
+          "boss2",
+          "final"
+        ],
+        "rewards": 0,
+        "combo": 11510,
+        "bestCombo": 11510,
+        "fervor": 45,
+        "rampages": 57,
+        "pickups": 10
+      }
+    },
+    {
+      "version": "before-mostly-stationary",
+      "seed": 7,
+      "avoid": true,
+      "maxed": false,
+      "lazy": true,
+      "first": 21.349999999999856,
+      "checkpoints": [
+        {
+          "t": 60,
+          "hp": 150,
+          "kills": 97,
+          "level": 4
+        },
+        {
+          "t": 120,
+          "hp": 150,
+          "kills": 327,
+          "level": 6
+        },
+        {
+          "t": 180,
+          "hp": 150,
+          "kills": 697,
+          "level": 8
+        },
+        {
+          "t": 240,
+          "hp": 150,
+          "kills": 1247,
+          "level": 10
+        },
+        {
+          "t": 300,
+          "hp": 150,
+          "kills": 2093,
+          "level": 10
+        },
+        {
+          "t": 360,
+          "hp": 150,
+          "kills": 3087,
+          "level": 13
+        },
+        {
+          "t": 420,
+          "hp": 150,
+          "kills": 4322,
+          "level": 22
+        },
+        {
+          "t": 480,
+          "hp": 150,
+          "kills": 6068,
+          "level": 38
+        }
+      ],
+      "result": {
+        "state": "won",
+        "time": 497.19999999982167,
+        "level": 41,
+        "kills": 6432,
+        "hp": 150,
+        "xp": 13,
+        "position": {
+          "x": 487.8863743361175,
+          "y": 1011.6984839911854
+        },
+        "abilities": {
+          "voice": {
+            "level": 5,
+            "evolved": false
+          },
+          "magnet": {
+            "level": 5,
+            "evolved": false
+          },
+          "halo": {
+            "level": 5,
+            "evolved": false
+          },
+          "rock": {
+            "level": 5,
+            "evolved": false
+          },
+          "early": {
+            "level": 5,
+            "evolved": false
+          },
+          "face": {
+            "level": 5,
+            "evolved": false
+          },
+          "fever": {
+            "level": 5,
+            "evolved": false
+          },
+          "share": {
+            "level": 5,
+            "evolved": false
+          },
+          "sleep": {
+            "level": 3,
+            "evolved": false
+          }
+        },
+        "enemies": 50,
+        "bullets": 0,
+        "gems": 243,
+        "bosses": [
+          "boss1",
+          "boss2",
+          "final"
+        ],
+        "rewards": 0,
+        "combo": 6326,
+        "bestCombo": 6326,
+        "fervor": 60,
+        "rampages": 59,
+        "pickups": 10
+      }
+    },
+    {
+      "version": "after-mostly-stationary",
+      "seed": 7,
+      "avoid": true,
+      "maxed": false,
+      "lazy": true,
+      "first": 20.449999999999907,
+      "checkpoints": [
+        {
+          "t": 60,
+          "hp": 150,
+          "kills": 95,
+          "level": 4
+        },
+        {
+          "t": 120,
+          "hp": 150,
+          "kills": 463,
+          "level": 6
+        },
+        {
+          "t": 180,
+          "hp": 150,
+          "kills": 1086,
+          "level": 8
+        },
+        {
+          "t": 240,
+          "hp": 150,
+          "kills": 2175,
+          "level": 14
+        },
+        {
+          "t": 300,
+          "hp": 150,
+          "kills": 3510,
+          "level": 23
+        },
+        {
+          "t": 360,
+          "hp": 107,
+          "kills": 5009,
+          "level": 30
+        }
+      ],
+      "result": {
+        "state": "over",
+        "time": 388.0749999999209,
+        "level": 33,
+        "kills": 5675,
+        "hp": 0,
+        "xp": 160.3300000000043,
+        "position": {
+          "x": 2010.5106016201728,
+          "y": 879.9173229488748
+        },
+        "abilities": {
+          "voice": {
+            "level": 5,
+            "evolved": false
+          },
+          "magnet": {
+            "level": 4,
+            "evolved": false
+          },
+          "face": {
+            "level": 5,
+            "evolved": false
+          },
+          "halo": {
+            "level": 5,
+            "evolved": false
+          },
+          "early": {
+            "level": 5,
+            "evolved": false
+          },
+          "share": {
+            "level": 5,
+            "evolved": false
+          },
+          "rock": {
+            "level": 5,
+            "evolved": false
+          }
+        },
+        "enemies": 480,
+        "bullets": 19,
+        "gems": 172,
+        "bosses": [
+          "boss1",
+          "boss2"
+        ],
+        "rewards": 0,
+        "combo": 5599,
+        "bestCombo": 5599,
+        "fervor": 2,
+        "rampages": 32,
+        "pickups": 10
+      }
+    },
+    {
+      "version": "before-mostly-stationary",
+      "seed": 24,
+      "avoid": true,
+      "maxed": false,
+      "lazy": true,
+      "first": 20.299999999999915,
+      "checkpoints": [
+        {
+          "t": 60,
+          "hp": 150,
+          "kills": 101,
+          "level": 5
+        },
+        {
+          "t": 120,
+          "hp": 138,
+          "kills": 333,
+          "level": 7
+        },
+        {
+          "t": 180,
+          "hp": 150,
+          "kills": 713,
+          "level": 8
+        },
+        {
+          "t": 240,
+          "hp": 150,
+          "kills": 1275,
+          "level": 10
+        },
+        {
+          "t": 300,
+          "hp": 150,
+          "kills": 2067,
+          "level": 11
+        },
+        {
+          "t": 360,
+          "hp": 150,
+          "kills": 3081,
+          "level": 11
+        },
+        {
+          "t": 420,
+          "hp": 150,
+          "kills": 4301,
+          "level": 14
+        },
+        {
+          "t": 480,
+          "hp": 150,
+          "kills": 6043,
+          "level": 14
+        }
+      ],
+      "result": {
+        "state": "won",
+        "time": 515.1749999998053,
+        "level": 15,
+        "kills": 6833,
+        "hp": 150,
+        "xp": 62,
+        "position": {
+          "x": 1994.4734765161606,
+          "y": 1318.2560885905684
+        },
+        "abilities": {
+          "voice": {
+            "level": 5,
+            "evolved": false
+          },
+          "halo": {
+            "level": 5,
+            "evolved": false
+          },
+          "magnet": {
+            "level": 1,
+            "evolved": false
+          },
+          "rock": {
+            "level": 5,
+            "evolved": false
+          },
+          "face": {
+            "level": 1,
+            "evolved": false
+          }
+        },
+        "enemies": 65,
+        "bullets": 0,
+        "gems": 268,
+        "bosses": [
+          "boss1",
+          "boss2",
+          "final"
+        ],
+        "rewards": 0,
+        "combo": 6833,
+        "bestCombo": 6833,
+        "fervor": 12,
+        "rampages": 63,
+        "pickups": 10
+      }
+    },
+    {
+      "version": "after-mostly-stationary",
+      "seed": 24,
+      "avoid": true,
+      "maxed": false,
+      "lazy": true,
+      "first": 21.09999999999987,
+      "checkpoints": [
+        {
+          "t": 60,
+          "hp": 150,
+          "kills": 91,
+          "level": 5
+        },
+        {
+          "t": 120,
+          "hp": 150,
+          "kills": 454,
+          "level": 7
+        },
+        {
+          "t": 180,
+          "hp": 150,
+          "kills": 1114,
+          "level": 8
+        },
+        {
+          "t": 240,
+          "hp": 150,
+          "kills": 2111,
+          "level": 14
+        },
+        {
+          "t": 300,
+          "hp": 134,
+          "kills": 3665,
+          "level": 23
+        },
+        {
+          "t": 360,
+          "hp": 65,
+          "kills": 5111,
+          "level": 30
+        }
+      ],
+      "result": {
+        "state": "over",
+        "time": 378.3999999999297,
+        "level": 32,
+        "kills": 5603,
+        "hp": 0,
+        "xp": 116.61000000000298,
+        "position": {
+          "x": 632.5492442374148,
+          "y": 1249.9703501898593
+        },
+        "abilities": {
+          "voice": {
+            "level": 5,
+            "evolved": false
+          },
+          "magnet": {
+            "level": 3,
+            "evolved": false
+          },
+          "halo": {
+            "level": 5,
+            "evolved": false
+          },
+          "rock": {
+            "level": 5,
+            "evolved": false
+          },
+          "early": {
+            "level": 5,
+            "evolved": false
+          },
+          "face": {
+            "level": 5,
+            "evolved": false
+          },
+          "share": {
+            "level": 5,
+            "evolved": false
+          }
+        },
+        "enemies": 473,
+        "bullets": 16,
+        "gems": 241,
+        "bosses": [
+          "boss1",
+          "boss2"
+        ],
+        "rewards": 0,
+        "combo": 5514,
+        "bestCombo": 5514,
+        "fervor": 0,
+        "rampages": 33,
+        "pickups": 10
+      }
+    },
+    {
+      "version": "after-stationary-maxed",
+      "seed": 24,
+      "avoid": false,
+      "maxed": true,
+      "lazy": false,
+      "first": 37.34999999999895,
+      "checkpoints": [
+        {
+          "t": 60,
+          "hp": 170,
+          "kills": 105,
+          "level": 3
+        },
+        {
+          "t": 120,
+          "hp": 240,
+          "kills": 464,
+          "level": 10
+        },
+        {
+          "t": 180,
+          "hp": 290,
+          "kills": 1160,
+          "level": 15
+        },
+        {
+          "t": 240,
+          "hp": 141,
+          "kills": 2253,
+          "level": 21
+        },
+        {
+          "t": 300,
+          "hp": 51,
+          "kills": 3850,
+          "level": 27
+        },
+        {
+          "t": 360,
+          "hp": 101,
+          "kills": 6017,
+          "level": 32
+        },
+        {
+          "t": 420,
+          "hp": 186,
+          "kills": 8641,
+          "level": 38
+        },
+        {
+          "t": 480,
+          "hp": 354,
+          "kills": 11542,
+          "level": 43
+        }
+      ],
+      "result": {
+        "state": "won",
+        "time": 510.97499999980914,
+        "level": 45,
+        "kills": 12979,
+        "hp": 186.3499999999876,
+        "xp": 189.40000000001788,
+        "position": {
+          "x": 1120,
+          "y": 800
+        },
+        "abilities": {
+          "voice": {
+            "level": 5,
+            "evolved": false
+          },
+          "rock": {
+            "level": 5,
+            "evolved": true
+          },
+          "share": {
+            "level": 5,
+            "evolved": true
+          },
+          "halo": {
+            "level": 5,
+            "evolved": false
+          },
+          "sleep": {
+            "level": 5,
+            "evolved": true
+          },
+          "face": {
+            "level": 5,
+            "evolved": false
+          },
+          "chill": {
+            "level": 5,
+            "evolved": false
+          },
+          "magnet": {
+            "level": 5,
+            "evolved": false
+          },
+          "early": {
+            "level": 5,
+            "evolved": false
+          },
+          "fever": {
+            "level": 5,
+            "evolved": false
+          }
+        },
+        "enemies": 517,
+        "bullets": 0,
+        "gems": 329,
+        "bosses": [
+          "boss1",
+          "boss2",
+          "final"
+        ],
+        "rewards": 2,
+        "combo": 12979,
+        "bestCombo": 12979,
+        "fervor": 34,
+        "rampages": 70,
+        "pickups": 10
+      }
+    }
+  ]
+}
